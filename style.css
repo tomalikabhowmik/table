@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(./img/image--3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.table_area table {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #ffffff;
+    width: 600px;
+    height: 400px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.table_area th {
+    border: 1px solid #ffffff;
+    background: #20bf6b;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+.table_area td {
+    border: 1px solid #20bf6b;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+}
